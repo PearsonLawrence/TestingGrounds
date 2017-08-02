@@ -66,6 +66,7 @@ public:
 		TSubclassOf<class AGun> GunBlueprint;
 
 private:
+	
 	AGun* Gun;
 protected:
 	

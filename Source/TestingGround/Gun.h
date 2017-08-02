@@ -50,8 +50,7 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 public:
-	void OnFire();
 
-	
-	
+	UFUNCTION(BlueprintCallable, Category = "Input")
+	void OnFire();
 };
